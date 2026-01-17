@@ -32,7 +32,7 @@ public class anagram {
 
             } else {
 
-                System.out.println(firstStr + "and " + secondStr + " are not anagram");
+                System.out.println(firstStr + " and " + secondStr + " are not anagram");
 
             }
 
