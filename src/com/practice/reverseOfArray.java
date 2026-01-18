@@ -2,7 +2,6 @@ package com.practice;
 import java.util.Scanner;
 public class reverseOfArray {
 
-    @SuppressWarnings("resource")
     public static void main(String[]args){
 
         Scanner scanner = new Scanner(System.in);
@@ -28,7 +27,7 @@ public class reverseOfArray {
             
             System.out.print(num + " ");
             }
-
+        scanner.close();
     }
     
     public static void reverseArray(int[] array) {

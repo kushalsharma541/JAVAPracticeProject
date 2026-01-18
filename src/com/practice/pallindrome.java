@@ -22,7 +22,6 @@ public class pallindrome {
 
         scanner.close();
 
-
     }
 
     public static boolean checkPalindrome(String str){

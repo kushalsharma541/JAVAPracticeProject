@@ -3,8 +3,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class anagram2 {
-
-    @SuppressWarnings("resource")
     public static void main (String[]args){
 
         Scanner scanner = new Scanner(System.in);
@@ -24,6 +22,7 @@ public class anagram2 {
         }else{
             System.out.println("both the input strings are not Anagram");
         }
+        scanner.close();
 
     }
 

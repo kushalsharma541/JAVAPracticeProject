@@ -1,8 +1,7 @@
 package com.practice;
 import java.util.Scanner;
-public class compressedString {
+public class CompressedString {
 
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[]args){
 
         Scanner scanner = new Scanner(System.in);

@@ -3,7 +3,6 @@ package com.practice;
 import java.util.Scanner;
 public class reverseString {
 
-@SuppressWarnings("ConvertToTryWithResources")
 public static void main (String[]args){
 
     // create an object from scanner class

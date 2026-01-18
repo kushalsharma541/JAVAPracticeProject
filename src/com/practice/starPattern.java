@@ -2,7 +2,6 @@ package com.practice;
 import java.util.Scanner;
 public class starPattern {
 
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[]args){
 
     Scanner scanner = new Scanner(System.in);

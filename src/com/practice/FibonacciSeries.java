@@ -40,13 +40,8 @@ public class FibonacciSeries {
 
             secondNumber = nextNumber;
 
-            
-
         }
 
-        
-
     }
-
 
 }

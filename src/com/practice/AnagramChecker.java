@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class AnagramChecker {
     
-@SuppressWarnings("resource")
 public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
@@ -23,7 +22,7 @@ public static void main(String[] args) {
     }else{
         System.out.println(firstString + " and " + secondString + " are not anagrams.");
     }
-
+scanner.close();
 }
 
 public static boolean Anagramchecker(String str1,  String str2){

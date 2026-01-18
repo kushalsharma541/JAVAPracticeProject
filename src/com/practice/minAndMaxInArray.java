@@ -2,8 +2,6 @@ package com.practice;
 import java.util.Scanner;
 public class minAndMaxInArray {
 
-
-    @SuppressWarnings("resource")
     public static void main(String[]args){
     
 
@@ -14,7 +12,7 @@ public class minAndMaxInArray {
 
     int[] newArray = new int[number]; //initialize the array
 
-    System.out.println("Pleae enter " + number + "elements to the array");
+    System.out.println("Pleae enter " + number + " elements to the array");
 
     for(int i=0; i<number; i++){
         
@@ -27,6 +25,8 @@ public class minAndMaxInArray {
 
     
     System.out.println("minimum value =" + minimum);
+
+    scanner.close();
 }
 
 
